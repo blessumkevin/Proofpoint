@@ -58,7 +58,7 @@ public class AccountAutomations {
      * @return The updated Account record.
      */
     public static Account setDefaultPhone(Account a) {
-        a.Phone = '5555555555';
+        a.Phone = '9257868477';
         return a;
     }
     
@@ -70,7 +70,7 @@ public class AccountAutomations {
      * @return The updated Account record.
      */
     public static Account setDefaultURL(Account a) {
-        a.Website = 'www.copa.do'; 
+        a.Website = 'www.copado.com'; 
         return a;
     }
 }

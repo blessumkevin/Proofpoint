@@ -36,13 +36,13 @@ private class AccountAutomationsTest {
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultPhone(acc);
-        System.assertEquals('5555555555', acc.Phone, 'Default phone number is 5555555555');
+        System.assertEquals('9257868477', acc.Phone, 'Default phone number is 9257868477');
     }
 
     @isTest static void testDefaultURL() {
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultURL(acc);
-        System.assertEquals('www.copa.do', acc.Website, 'Default website is www.copa.do');
+        System.assertEquals('www.copado.com', acc.Website, 'Default website is www.copado.com');
     }
 }
