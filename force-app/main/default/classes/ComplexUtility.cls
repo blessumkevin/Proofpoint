@@ -6,7 +6,9 @@ public class ComplexUtility {
      * @return The reversed string
      */
     public static String reverseString(String input) {
-        if (input == null) return null;
+        if (input == null) {
+            return null;
+        }
         return input.reverse();
     }
     
@@ -16,7 +18,9 @@ public class ComplexUtility {
      * @return The number of words
      */
     public static Integer countWords(String input) {
-        if (input == null || input.trim().length() == 0) return 0;
+        if (input == null || input.trim().length() == 0) {
+            return 0;
+        }
         return input.trim().split('\\s+').size();
     }
 }
