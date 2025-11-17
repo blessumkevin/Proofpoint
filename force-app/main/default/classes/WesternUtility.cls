@@ -1,12 +1,14 @@
 public class WesternUtility {
-    // Testing by Vinit
+    
     /**
      * Simple method to reverse a string
      * @param input The string to reverse
      * @return The reversed string
      */
     public static String reverseString(String input) {
-        if (input == null) return null;
+        if (input == null) {
+            return null;
+        }
         return input.reverse();
     }
     
@@ -16,7 +18,9 @@ public class WesternUtility {
      * @return The number of words
      */
     public static Integer countWords(String input) {
-        if (input == null || input.trim().length() == 0) return 0;
+        if (input == null || input.trim().length() == 0) {
+            return 0;
+        }
         return input.trim().split('\\s+').size();
     }
 }
